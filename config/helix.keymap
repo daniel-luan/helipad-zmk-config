@@ -86,3 +86,7 @@ As such, those are in use within the default layer at this time.*/
               };
        };
 };
+
+&nice_view_spi {
+    cs-gpios = <&pro_micro 10 GPIO_ACTIVE_HIGH>;
+};
