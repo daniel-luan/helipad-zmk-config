@@ -28,3 +28,5 @@ include:
     snippet: zmk-usb-logging
   # - board: nice_nano_v2
   #   shield: tester_pro_micro
+  - board: nice_nano_v2
+    shield: settings_reset
