@@ -9,24 +9,24 @@
 # shield: [ "corne_left", "corne_right" ]
 # include:
 #   - board: bdn9_rev2
-#   - board: nice_nano_v2
+#   - board: nice_nano_v2jjjjjjjnnn bbbbbbbbbbb
 #     shield: reviung41
 #   - board: nice_nano_v2
 #     shield: corne_left
 #     cmake-args: -DCONFIG_ZMK_USB_LOGGING=y
 #     artifact-name: corne_left_with_logging
-#
+#....llloo99
 ---
 include:
   - board: nice_nano_v2
-    shield: helix_left nice_view_adapter nice_view  
-    # shield: helipad_left nice_view_adapter nice_view  
+    # shield: helix_left nice_view_adapter nice_view  
+    shield: helipad_left nice_view_adapter nice_view  
     snippet: zmk-usb-logging
   - board: nice_nano_v2
-    shield: helix_right nice_view_adapter nice_view  
-    # shield: helipad_right nice_view_adapter nice_view  
+    # shield: helix_right nice_view_adapter nice_view  
+    shield: helipad_right nice_view_adapter nice_view  
     snippet: zmk-usb-logging
   # - board: nice_nano_v2
   #   shield: tester_pro_micro
-  - board: nice_nano_v2
-    shield: settings_reset
+  # - board: nice_nano_v2
+  #   shield: settings_reset
