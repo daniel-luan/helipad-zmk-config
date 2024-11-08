@@ -1,0 +1,13 @@
+file_format: "1"
+id: helipad
+name: Helipad
+type: shield
+url: https://github.com/daniel-luan/helipad
+requires: [pro_micro]
+exposes: [i2c_oled]
+features:
+  - keys
+  - display
+siblings:
+  - helipad_left
+  - helipad_right
