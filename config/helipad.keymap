@@ -10,6 +10,7 @@
  #include <dt-bindings/zmk/rgb.h>
  #include <dt-bindings/zmk/ext_power.h>
  #include <dt-bindings/zmk/outputs.h>
+ #include "key-labels.h"
 
  #define DEFAULT 0
  #define LOWER  1
@@ -20,11 +21,40 @@
  #define SPC_LWR &lt LOWER SPACE
  #define SPC_RSE &lt RAISE SPACE
 
+
+#define KEYS_L LN0 LN1 LN2 LN3 LN4 LN5 LT0 LT1 LT2 LT3 LT4 LT5 LM0 LM1 LM2 LM3 LM4 LM5 LB0 LB1 LB2 LB3 LB4 LB5 LB6 LH3 LH4 LH5 LH6   // Left-hand keys.
+#define KEYS_R RN0 RN1 RN2 RN3 RN4 RN5 RT0 RT1 RT2 RT3 RT4 RT5 RM0 RM1 RM2 RM3 RM4 RM5 RB0 RB1 RB2 RB3 RB4 RB5 RB6 RH3 RH4 RH5 RH6   // Right-hand keys.
+#define THUMBS LH2 LH1 LH0 RH0 RH1 RH2                                                                                               // Thumb keys.
+
 &lt {
     tapping-term-ms = <200>;
 };
 
 / {
+    behaviors {
+        hml: home_row_mod_left {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            require-prior-idle-ms = <150>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            bindings = <&kp>, <&kp>;
+            hold-trigger-key-positions = <KEYS_R THUMBS>; // List of keys on the right side of the keyboard
+            hold-trigger-on-release;
+        };
+        hmr: home_row_mod_right {
+            compatible = "zmk,behavior-hold-tap";
+            #binding-cells = <2>;
+            flavor = "balanced";
+            require-prior-idle-ms = <150>;
+            tapping-term-ms = <280>;
+            quick-tap-ms = <175>;
+            bindings = <&kp>, <&kp>;
+            hold-trigger-key-positions = <KEYS_L THUMBS>; // List of keys on the left side of the keyboard
+            hold-trigger-on-release;
+        };
+    };
        keymap {
               compatible = "zmk,keymap";
 
@@ -36,11 +66,11 @@
  // |  SHIFT |   Z    |   X    |   C    |   V    |   B    |  LBKT  |                    |  RBKT  |   N    |   M    |   ,    |   .    |   /    |  RET   |
  // | LCTRL  |  GUI   |  ALT   |  NONE  | LOWER  | LOWER  | SPACE  |                    |  SPACE | RAISE  |  RAISE |  LEFT  |  DOWN  |  UP    |  RIGHT |
                      bindings = <
-       &kp GRAVE  &kp N1   &kp N2   &kp N3   &kp N4    &kp N5                               &kp N6    &kp N7    &kp N8    &kp N9     &kp N0    &kp DEL
-       &kp TAB    &kp Q    &kp W    &kp E    &kp R     &kp T                                &kp Y     &kp U     &kp I     &kp O      &kp P     &kp BSPC
-       &kp ESC    &kp A    &kp S    &kp D    &kp F     &kp G                                &kp H     &kp J     &kp K     &kp L      &kp SEMI  &kp SQT
-       &kp LSHFT  &kp Z    &kp X    &kp C    &kp V     &kp B     &kp LBKT         &kp RBKT  &kp N     &kp M     &kp COMMA &kp PERIOD &kp SLASH RSFT_T
-       &kp LCTRL  &kp LGUI &kp LALT &none    &mo LOWER SPC_LWR   &kp SPACE        &kp SPACE SPC_RSE   &mo RAISE &kp LEFT  &kp DOWN   &kp UP    &kp RIGHT
+       &kp GRAVE  &kp N1           &kp N2           &kp N3               &kp N4                &kp N5                               &kp N6    &kp N7              &kp N8                &kp N9            &kp N0               &kp DEL
+       &kp TAB    &kp Q            &kp W            &kp E                &kp R                 &kp T                                &kp Y     &kp U               &kp I                 &kp O             &kp P                &kp BSPC
+       &kp ESC    &hml LEFT_GUI A  &hml LEFT_ALT S  &hml LEFT_CONTROL D  &hml LEFT_SHIFT F     &kp G                                &kp H     &hmr RIGHT_SHIFT J  &hmr RIGHT_CONTROL K  &hmr RIGHT_ALT L  &hmr RIGHT_GUI SEMI  &kp SQT
+       &kp LSHFT  &kp Z            &kp X            &kp C                &kp V                 &kp B     &kp LBKT         &kp RBKT  &kp N     &kp M               &kp COMMA             &kp PERIOD        &kp SLASH            RSFT_T
+       &kp LCTRL  &kp LGUI         &kp LALT         &none                &mo LOWER             SPC_LWR   &kp SPACE        &kp SPACE SPC_RSE   &mo RAISE           &kp LEFT              &kp DOWN          &kp UP               &kp RIGHT
                      >;
               };
               lower_layer {
