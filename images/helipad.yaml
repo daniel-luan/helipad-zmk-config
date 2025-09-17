@@ -1,19 +1,19 @@
 layout: {zmk_keyboard: helipad}
 layers:
   default:
-  - '`'
-  - '1'
-  - '2'
-  - '3'
-  - '4'
-  - '5'
-  - '6'
-  - '7'
-  - '8'
-  - '9'
-  - '0'
-  - DEL
-  - TAB
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
+  - ''
   - Q
   - W
   - E
@@ -24,8 +24,8 @@ layers:
   - I
   - O
   - P
-  - BSPC
-  - ESC
+  - ''
+  - ''
   - {t: A, h: LEFT GUI}
   - {t: S, h: LEFT ALT}
   - {t: D, h: LEFT CONTROL}
@@ -33,27 +33,27 @@ layers:
   - G
   - H
   - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RIGHT CONTROL}
-  - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RIGHT GUI}
-  - ''''
-  - LSHFT
+  - {t: J, h: RIGHT SHIFT}
+  - {t: J, h: RIGHT SHIFT}
+  - {t: J, h: RIGHT SHIFT}
+  - ''
+  - ''
   - Z
   - X
   - C
   - V
   - B
-  - '['
-  - ']'
+  - ''
+  - ''
   - N
   - M
   - ','
   - .
   - /
-  - {t: RET, h: RSHFT}
-  - LCTRL
-  - LGUI
-  - LALT
+  - ''
+  - ''
+  - ''
+  - ''
   - ''
   - lower
   - {t: SPACE, h: lower}
@@ -61,10 +61,10 @@ layers:
   - SPACE
   - {t: SPACE, h: raise}
   - raise
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
+  - ''
+  - ''
+  - ''
+  - ''
   lower:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
