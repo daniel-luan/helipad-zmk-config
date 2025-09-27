@@ -79,7 +79,7 @@ layers:
   - ''
   - ''
   - ''
-  - Boot
+  - $$mdi:progress-download$$
   - ''
   - ''
   - ''
@@ -91,20 +91,20 @@ layers:
   - Undo
   - ''
   - ''
-  - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
+  - {t: LGUI, h: ⌘}
+  - {t: LALT, h: ⌥}
+  - {t: LCTRL, h: ⌃}
+  - {t: LSHFT, h: ⇧}
   - ''
-  - Caps Word
-  - ←
-  - ↓
-  - ↑
-  - →
+  - $$mdi:apple-keyboard-caps$$
+  - $$mdi:arrow-left$$
+  - $$mdi:arrow-down$$
+  - $$mdi:arrow-up$$
+  - $$mdi:arrow-right$$
   - ''
   - ''
   - ''
-  - RALT
+  - {t: RALT, h: ⌥}
   - ''
   - ''
   - ''
@@ -144,7 +144,7 @@ layers:
   - ''
   - ''
   - ''
-  - Boot
+  - $$mdi:progress-download$$
   - ''
   - ''
   - ''
@@ -156,10 +156,10 @@ layers:
   - Undo
   - ''
   - ''
-  - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
+  - {t: LGUI, h: ⌘}
+  - {t: LALT, h: ⌥}
+  - {t: LCTRL, h: ⌃}
+  - {t: LSHFT, h: ⇧}
   - ''
   - ''
   - Mouse ←
@@ -169,7 +169,7 @@ layers:
   - ''
   - ''
   - ''
-  - RALT
+  - {t: RALT, h: ⌥}
   - ''
   - ''
   - ''
@@ -221,16 +221,16 @@ layers:
   - Undo
   - ''
   - ''
-  - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
+  - {t: LGUI, h: ⌘}
+  - {t: LALT, h: ⌥}
+  - {t: LCTRL, h: ⌃}
+  - {t: LSHFT, h: ⇧}
   - ''
   - ''
-  - RSHFT
-  - RCTRL
-  - RALT
-  - RGUI
+  - {t: RSHFT, h: ⇧}
+  - {t: RCTRL, h: ⌃}
+  - {t: RALT, h: ⌥}
+  - {t: RGUI, h: ⌘}
   - ''
   - ''
   - {t: Undo, type: held}
@@ -274,7 +274,7 @@ layers:
   - ''
   - ''
   - ''
-  - Boot
+  - $$mdi:progress-download$$
   - ''
   - ''
   - ''
@@ -286,10 +286,10 @@ layers:
   - BT NXT
   - ''
   - ''
-  - LGUI
-  - LALT
-  - LCTRL
-  - LSHFT
+  - {t: LGUI, h: ⌘}
+  - {t: LALT, h: ⌥}
+  - {t: LCTRL, h: ⌃}
+  - {t: LSHFT, h: ⇧}
   - ''
   - EP TOG
   - ⏮
@@ -299,7 +299,7 @@ layers:
   - ''
   - ''
   - ''
-  - RALT
+  - {t: RALT, h: ⌥}
   - ''
   - ''
   - ''
@@ -357,10 +357,10 @@ layers:
   - '6'
   - '='
   - ''
-  - RSHFT
-  - RCTRL
-  - RALT
-  - RGUI
+  - {t: RSHFT, h: ⇧}
+  - {t: RCTRL, h: ⌃}
+  - {t: RALT, h: ⌥}
+  - {t: RGUI, h: ⌘}
   - ''
   - ''
   - '`'
@@ -373,7 +373,7 @@ layers:
   - ''
   - ''
   - ''
-  - LALT
+  - {t: LALT, h: ⌥}
   - ''
   - ''
   - ''
@@ -413,7 +413,7 @@ layers:
   - ''
   - ''
   - ''
-  - Boot
+  - $$mdi:progress-download$$
   - ''
   - ''
   - ':'
@@ -422,10 +422,10 @@ layers:
   - ^
   - +
   - ''
-  - RSHFT
-  - RCTRL
-  - RALT
-  - RGUI
+  - {t: RSHFT, h: ⇧}
+  - {t: RCTRL, h: ⌃}
+  - {t: RALT, h: ⌥}
+  - {t: RGUI, h: ⌘}
   - ''
   - ''
   - '~'
@@ -438,7 +438,7 @@ layers:
   - ''
   - ''
   - ''
-  - LALT
+  - {t: LALT, h: ⌥}
   - ''
   - ''
   - ''
@@ -478,7 +478,7 @@ layers:
   - ZMK Studio
   - ''
   - ''
-  - Boot
+  - $$mdi:progress-download$$
   - ''
   - ''
   - F11
@@ -487,10 +487,10 @@ layers:
   - F6
   - SLCK
   - ''
-  - RSHFT
-  - RCTRL
-  - RALT
-  - RGUI
+  - {t: RSHFT, h: ⇧}
+  - {t: RCTRL, h: ⌃}
+  - {t: RALT, h: ⌥}
+  - {t: RGUI, h: ⌘}
   - ''
   - ''
   - F10
@@ -503,7 +503,7 @@ layers:
   - ''
   - ''
   - ''
-  - LALT
+  - {t: LALT, h: ⌥}
   - ''
   - ''
   - ''

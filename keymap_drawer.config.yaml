@@ -49,42 +49,42 @@ parse_config:
     "&kp LEFT": $$mdi:arrow-left$$
     "&kp RIGHT": $$mdi:arrow-right$$
 
-    "&kp C_STOP": ⏸
-    "&kp C_PP": ⏯
-    "&kp C_PREV": ⏮
-    "&kp C_NEXT": ⏭
-    "&kp C_VOL_DN": 🔉
-    "&kp C_VOL_UP": 🔊
-    "&kp C_MUTE": 🔇
+    "&kp C_STOP": $$mdi:stop$$
+    "&kp C_PP": $$mdi:play-pause$$
+    "&kp C_PREV": $$mdi:skip-previous$$
+    "&kp C_NEXT": $$mdi:skip-next$$
+    "&kp C_VOL_DN": $$mdi:volume-minus$$
+    "&kp C_VOL_UP": $$mdi:volume-plus$$
+    "&kp C_MUTE": $$mdi:volume-mute$$
 
-    '&mmv MOVE_UP': Mouse ↑
-    '&mmv MOVE_DOWN': Mouse ↓
-    '&mmv MOVE_LEFT': Mouse ←
-    '&mmv MOVE_RIGHT': Mouse →
+    '&mmv MOVE_UP': Mouse $$mdi:arrow-up$$
+    '&mmv MOVE_DOWN': Mouse $$mdi:arrow-down$$
+    '&mmv MOVE_LEFT': Mouse $$mdi:arrow-left$$
+    '&mmv MOVE_RIGHT': Mouse $$mdi:arrow-right$$
 
-    '&msc SCRL_UP': Scroll ↑
-    '&msc SCRL_DOWN': Scroll ↓
-    '&msc SCRL_LEFT': Scroll ←
-    '&msc SCRL_RIGHT': Scroll →
+    '&msc SCRL_UP': Scroll $$mdi:arrow-up$$
+    '&msc SCRL_DOWN': Scroll $$mdi:arrow-down$$
+    '&msc SCRL_LEFT': Scroll $$mdi:arrow-left$$
+    '&msc SCRL_RIGHT': Scroll $$mdi:arrow-right$$
 
     "&mkp RCLK": Right Click
     "&mkp LCLK": Left Click
     "&mkp MCLK": Middle Click
 
-    "&kp LG(C)": Copy
-    "&kp LG(V)": Paste
-    "&kp LG(X)": Cut
-    "&kp LG(Z)": Undo
-    "&kp LG(LS(Z))": Redo
+    "&kp LG(C)": $$mdi:content-copy$$
+    "&kp LG(V)": $$mdi:content-paste$$
+    "&kp LG(X)": $$mdi:content-cut$$
+    "&kp LG(Z)": $$mdi:undo$$
+    "&kp LG(LS(Z))": $$mdi:redo$$
 
-    "&kp LGUI": {t: 'LGUI', h: '⌘'}
-    "&kp LALT": {t: 'LALT', h: '⌥'}
-    "&kp LCTRL": {t: 'LCTRL', h: '⌃'}
-    "&kp LSHFT": {t: 'LSHFT', h: '⇧'}
-    "&kp RGUI": {t: 'RGUI', h: '⌘'}
-    "&kp RALT": {t: 'RALT', h: '⌥'}
-    "&kp RCTRL": {t: 'RCTRL', h: '⌃'}
-    "&kp RSHFT": {t: 'RSHFT', h: '⇧'}
+    "&kp LGUI": {t: 'LGUI', h: $$mdi:apple-keyboard-command$$}
+    "&kp LALT": {t: 'LALT', h: $$mdi:apple-keyboard-option$$}
+    "&kp LCTRL": {t: 'LCTRL', h: $$mdi:apple-keyboard-control$$}
+    "&kp LSHFT": {t: 'LSHFT', h: $$mdi:apple-keyboard-shift$$}
+    "&kp RGUI": {t: 'RGUI', h: $$mdi:apple-keyboard-command$$}
+    "&kp RALT": {t: 'RALT', h: $$mdi:apple-keyboard-option$$}
+    "&kp RCTRL": {t: 'RCTRL', h: $$mdi:apple-keyboard-control$$}
+    "&kp RSHFT": {t: 'RSHFT', h: $$mdi:apple-keyboard-shift$$}
 
   sticky_label: sticky
   toggle_label: toggle
