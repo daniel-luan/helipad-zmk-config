@@ -40,14 +40,14 @@ parse_config:
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map:
-    "&bootloader": Boot
-    "&caps_word": Caps Word
+    "&bootloader": $$mdi:progress-download$$
+    "&caps_word": $$mdi:apple-keyboard-caps$$
     "&studio_unlock": ZMK Studio
 
-    "&kp UP": ↑
-    "&kp DOWN": ↓
-    "&kp LEFT": ←
-    "&kp RIGHT": →
+    "&kp UP": $$mdi:arrow-up$$
+    "&kp DOWN": $$mdi:arrow-down$$
+    "&kp LEFT": $$mdi:arrow-left$$
+    "&kp RIGHT": $$mdi:arrow-right$$
 
     "&kp C_STOP": ⏸
     "&kp C_PP": ⏯
@@ -76,6 +76,16 @@ parse_config:
     "&kp LG(X)": Cut
     "&kp LG(Z)": Undo
     "&kp LG(LS(Z))": Redo
+
+    "&kp LGUI": {t: 'LGUI', h: '⌘'}
+    "&kp LALT": {t: 'LALT', h: '⌥'}
+    "&kp LCTRL": {t: 'LCTRL', h: '⌃'}
+    "&kp LSHFT": {t: 'LSHFT', h: '⇧'}
+    "&kp RGUI": {t: 'RGUI', h: '⌘'}
+    "&kp RALT": {t: 'RALT', h: '⌥'}
+    "&kp RCTRL": {t: 'RCTRL', h: '⌃'}
+    "&kp RSHFT": {t: 'RSHFT', h: '⇧'}
+
   sticky_label: sticky
   toggle_label: toggle
   tap_toggle_label: tap-toggle
