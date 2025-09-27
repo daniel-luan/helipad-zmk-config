@@ -84,11 +84,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Sft+Z
-  - Gui+V
-  - Gui+C
-  - Gui+X
-  - Gui+Z
+  - Redo
+  - Paste
+  - Copy
+  - Cut
+  - Undo
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LGUI
@@ -149,11 +149,11 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Sft+Z
-  - Gui+V
-  - Gui+C
-  - Gui+X
-  - Gui+Z
+  - Redo
+  - Paste
+  - Copy
+  - Cut
+  - Undo
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LGUI
@@ -162,10 +162,10 @@ layers:
   - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Mouse Left
-  - Mouse Down
-  - Mouse Up
-  - Mouse Right
+  - Mouse ←
+  - Mouse ↓
+  - Mouse ↑
+  - Mouse →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,10 +176,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Scroll Left
-  - Scroll Down
-  - Scroll Up
-  - Scroll Right
+  - Scroll ←
+  - Scroll ↓
+  - Scroll ↑
+  - Scroll →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -188,9 +188,9 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {type: held}
-  - '&mkp RCLK'
-  - '&mkp LCLK'
-  - '&mkp MCLK'
+  - Right Click
+  - Left Click
+  - Middle Click
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -209,16 +209,16 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Z
-  - Gui+X
-  - Gui+C
-  - Gui+V
-  - Gui+Sft+Z
-  - Gui+Sft+Z
-  - Gui+V
-  - Gui+C
-  - Gui+X
-  - Gui+Z
+  - Undo
+  - Cut
+  - Copy
+  - Paste
+  - Redo
+  - Redo
+  - Paste
+  - Copy
+  - Cut
+  - Undo
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - LGUI
@@ -233,29 +233,29 @@ layers:
   - RGUI
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: Gui+Z, type: held}
-  - Gui+X
-  - Gui+C
-  - Gui+V
-  - Gui+Sft+Z
+  - {t: Undo, type: held}
+  - Cut
+  - Copy
+  - Paste
+  - Redo
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - Gui+Sft+Z
-  - Gui+V
-  - Gui+C
-  - Gui+X
-  - Gui+Z
+  - Redo
+  - Paste
+  - Copy
+  - Cut
+  - Undo
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mkp MCLK'
-  - '&mkp LCLK'
-  - '&mkp RCLK'
-  - '&mkp RCLK'
-  - '&mkp LCLK'
-  - '&mkp MCLK'
+  - Middle Click
+  - Left Click
+  - Right Click
+  - Right Click
+  - Left Click
+  - Middle Click
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -293,8 +293,8 @@ layers:
   - {t: ▽, type: trans}
   - EP TOG
   - ⏮
-  - VOL DN
-  - VOL UP
+  - 🔉
+  - 🔊
   - ⏭
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -320,7 +320,7 @@ layers:
   - {t: ▽, type: trans}
   - ⏸
   - ⏯
-  - MUTE
+  - 🔇
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -531,13 +531,13 @@ combos:
   k: DEL
   l: [Nav]
 - p: [55, 56]
-  k: '&mkp MCLK'
+  k: Middle Click
   l: [Button]
 - p: [57, 58]
-  k: '&mkp MCLK'
+  k: Middle Click
   l: [Mouse, Button]
 - p: [57, 58]
-  k: MUTE
+  k: 🔇
   l: [Media]
 - p: [55, 56]
   k: .
