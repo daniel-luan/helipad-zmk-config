@@ -118,7 +118,82 @@
      &trans  &trans       &trans    &trans     &trans     &trans  &trans          &kp RET  &kp BSPC  &kp DEL   &trans     &trans     &trans     &trans
                      >;
               };
-              layer {
+              mouse_layer {
+ // ---------------------------------------------------------------------------------------------------------------------
+ // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |      |        |      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |      |        |      |      |      |      |      |      |      |
+                     bindings = <
+     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans &trans
+                     >;
+              };
+              button_layer {
+ // ---------------------------------------------------------------------------------------------------------------------
+ // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |      |        |      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |      |        |      |      |      |      |      |      |      |
+                     bindings = <
+     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans &trans
+                     >;
+              };
+              media_layer {
+ // ---------------------------------------------------------------------------------------------------------------------
+ // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |      |        |      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |      |        |      |      |      |      |      |      |      |
+                     bindings = <
+     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans &trans
+                     >;
+              };
+              num_layer {
+ // ---------------------------------------------------------------------------------------------------------------------
+ // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |      |        |      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |      |        |      |      |      |      |      |      |      |
+                     bindings = <
+     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans &trans
+                     >;
+              };
+              sym_layer {
+ // ---------------------------------------------------------------------------------------------------------------------
+ // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |      |        |      |      |      |      |      |      |      |
+ // |      |      |      |      |      |      |      |        |      |      |      |      |      |      |      |
+                     bindings = <
+     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans &trans
+     &trans &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans &trans
+                     >;
+              };
+              fun_layer {
  // ---------------------------------------------------------------------------------------------------------------------
  // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
  // |      |      |      |      |      |      |                      |      |      |      |      |      |      |
@@ -134,13 +209,6 @@
                      >;
               };
        };
-    conditional_layers {
-        compatible = "zmk,conditional-layers";
-        tri_layer {
-            if-layers = <1 2>;
-            then-layer = <3>;
-        };
-    };
 };
 
 &nice_view_spi {
