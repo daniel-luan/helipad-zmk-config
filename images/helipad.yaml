@@ -520,3 +520,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
+combos:
+- p: [55, 56]
+  k: {t: ESC, h: Media}
+  l: [Base]
+- p: [57, 58]
+  k: {t: DEL, h: Fun}
+  l: [Base]

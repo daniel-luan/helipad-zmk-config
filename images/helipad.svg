@@ -379,6 +379,18 @@ path.combo {
 <g transform="translate(812, 252)" class="key keypos-63">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
 </g>
+<g class="combo combopos-0">
+<rect rx="6" ry="6" x="322" y="239" width="28" height="26" class="combo"/>
+<text x="336" y="252" class="combo tap">ESC</text>
+<a href="#Media">
+<text x="336" y="263" class="combo hold layer-activator">Media</text>
+</a></g>
+<g class="combo combopos-1">
+<rect rx="6" ry="6" x="490" y="239" width="28" height="26" class="combo"/>
+<text x="504" y="252" class="combo tap">DEL</text>
+<a href="#Fun">
+<text x="504" y="263" class="combo hold layer-activator">Fun</text>
+</a></g>
 </g>
 </g>
 <g transform="translate(30, 336)" class="layer-Nav">
