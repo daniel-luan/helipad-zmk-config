@@ -162,11 +162,11 @@
  // |      |      |      |      |      |      |      |        |      |      |      |      |      |      |      |
  // |      |      |      |      |      |      |      |        |      |      |      |      |      |      |      |
                      bindings = <
-     &trans  &trans       &trans    &trans     &trans     &trans                          &trans             &trans        &trans        &trans        &trans        &trans
-     &trans  &bootloader  &trans    &trans     &trans     &trans                          &trans             &bt BT_PRV    &bt BT_CLR    &trans        &bt BT_NXT    &trans
-     &trans  &kp LGUI     &kp LALT  &kp LCTRL  &kp LSHFT  &trans                          &ext_power EP_TOG  &kp C_PREV    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT    &trans
-     &trans  &trans       &kp RALT  &trans     &trans     &trans  &trans          &trans  &out OUT_TOG       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans
-     &trans  &trans       &trans    &trans     &trans     &trans  &trans          &trans  &kp C_PP           &kp C_MUTE    &trans        &trans        &trans        &trans
+     &trans  &trans       &trans    &trans     &trans     &trans                              &trans             &trans        &trans        &trans        &trans        &trans
+     &trans  &bootloader  &trans    &trans     &trans     &trans                              &trans             &bt BT_PRV    &bt BT_CLR    &trans        &bt BT_NXT    &trans
+     &trans  &kp LGUI     &kp LALT  &kp LCTRL  &kp LSHFT  &trans                              &ext_power EP_TOG  &kp C_PREV    &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT    &trans
+     &trans  &trans       &kp RALT  &trans     &trans     &trans  &trans          &trans      &out OUT_TOG       &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &trans
+     &trans  &trans       &trans    &trans     &trans     &trans  &trans          &kp C_STOP  &kp C_PP           &kp C_MUTE    &trans        &trans        &trans        &trans
                      >;
               };
               num_layer {
@@ -220,18 +220,55 @@
        };
     combos {
         compatible = "zmk,combos";
-        combo_esc {
+        combo_esc_med {
             timeout-ms = <50>;
             key-positions = <55 56>;
             bindings = <ESC_MED>;
             layers = <BAS>;
         };
-        combo_del {
+        combo_del_fun {
             timeout-ms = <50>;
             key-positions = <57 58>;
             bindings = <DEL_FUN>;
             layers = <BAS>;
         };
+        combo_del {
+            timeout-ms = <50>;
+            key-positions = <57 58>;
+            bindings = <&kp DEL>;
+            layers = <NAV>;
+        };
+        combo_left_mclk {
+            timeout-ms = <50>;
+            key-positions = <55 56>;
+            bindings = <&mkp MCLK>;
+            layers = <BUT>;
+        };
+        combo_right_mclk {
+            timeout-ms = <50>;
+            key-positions = <57 58>;
+            bindings = <&mkp MCLK>;
+            layers = <MOU BUT>;
+        };
+        combo_mute {
+            timeout-ms = <50>;
+            key-positions = <57 58>;
+            bindings = <&kp C_MUTE>;
+            layers = <MED>;
+        };
+        combo_dot {
+            timeout-ms = <50>;
+            key-positions = <55 56>;
+            bindings = <&kp DOT>;
+            layers = <NUM>;
+        };
+        combo_lpar {
+            timeout-ms = <50>;
+            key-positions = <55 56>;
+            bindings = <&kp LPAR>;
+            layers = <SYM>;
+        };
+
     };
 };
 
