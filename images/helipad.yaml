@@ -1,6 +1,6 @@
 layout: {zmk_keyboard: helipad}
 layers:
-  base:
+  Base:
   - ''
   - ''
   - ''
@@ -33,12 +33,12 @@ layers:
   - G
   - H
   - {t: J, h: RIGHT SHIFT}
-  - {t: J, h: RIGHT SHIFT}
-  - {t: J, h: RIGHT SHIFT}
-  - {t: J, h: RIGHT SHIFT}
+  - {t: K, h: RIGHT CONTROL}
+  - {t: L, h: RIGHT ALT}
+  - {t: ;, h: RIGHT GUI}
   - ''
   - ''
-  - {t: Z, h: button}
+  - {t: Z, h: Button}
   - X
   - C
   - V
@@ -49,23 +49,23 @@ layers:
   - M
   - ','
   - .
-  - {t: /, h: button}
+  - {t: /, h: Button}
   - ''
   - ''
   - ''
   - ''
   - ''
-  - {t: ESC, h: media}
-  - {t: SPACE, h: nav}
-  - {t: TAB, h: mouse}
-  - {t: RET, h: sym}
-  - {t: BSPC, h: num}
-  - {t: DEL, h: fun}
+  - {t: ESC, h: Media}
+  - {t: SPACE, h: Nav}
+  - {t: TAB, h: Mouse}
+  - {t: RET, h: Sym}
+  - {t: BSPC, h: Num}
+  - {t: DEL, h: Fun}
   - ''
   - ''
   - ''
   - ''
-  nav:
+  Nav:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -130,7 +130,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  mouse:
+  Mouse:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -195,7 +195,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  button:
+  Button:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -260,7 +260,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  media:
+  Media:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -325,7 +325,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  num:
+  Num:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -390,7 +390,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  sym:
+  Sym:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -455,7 +455,7 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  fun:
+  Fun:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
