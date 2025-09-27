@@ -475,7 +475,7 @@ layers:
   - F9
   - PSCRN
   - ''
-  - ZMK Studio
+  - {t: ZMK Studio, h: '$$mdi:lock-open-variant$$'}
   - ''
   - ''
   - {t: Boot, h: '$$mdi:progress-download$$'}
