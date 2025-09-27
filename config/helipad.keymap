@@ -141,11 +141,11 @@
  // |      |      |      |      |      |      |      |        |      |      |      |      |      |      |      |
  // |      |      |      |      |      |      |      |        |      |      |      |      |      |      |      |
                      bindings = <
-     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
-     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
-     &trans &trans &trans &trans &trans &trans                        &trans &trans &trans &trans &trans &trans
-     &trans &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans &trans
-     &trans &trans &trans &trans &trans &trans &trans          &trans &trans &trans &trans &trans &trans &trans
+     &trans  &trans       &trans    &trans     &trans     &trans                                &trans     &trans          &trans          &trans        &trans           &trans
+     &trans  UNDO         CUT       COPY       PASTE      REDO                                  REDO       PASTE           COPY            CUT           UNDO             &trans
+     &trans  &kp LGUI     &kp LALT  &kp LCTRL  &kp LSHFT  &trans                                &trans     &kp RSHFT       &kp RCTRL       &kp RALT      &kp RGUI  &trans
+     &trans  UNDO         CUT       COPY       PASTE      REDO       &trans          &trans     REDO       PASTE           COPY            CUT           UNDO             &trans
+     &trans  &trans       &trans    &trans     &mkp MCLK  &mkp LCLK  &mkp RCLK       &mkp RCLK  &mkp LCLK  &mkp MCLK       &trans          &trans        &trans           &trans
                      >;
               };
               media_layer {
