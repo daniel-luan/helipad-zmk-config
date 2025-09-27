@@ -40,8 +40,8 @@ parse_config:
   preprocess: true
   skip_binding_parsing: false
   raw_binding_map:
-    "&bootloader": $$mdi:progress-download$$
-    "&caps_word": $$mdi:apple-keyboard-caps$$
+    "&bootloader": {t: Boot, h: $$mdi:progress-download$$}
+    "&caps_word": {t: Caps Word, h: $$mdi:apple-keyboard-caps$$}
     "&studio_unlock": ZMK Studio
 
     "&kp UP": $$mdi:arrow-up$$
@@ -57,25 +57,25 @@ parse_config:
     "&kp C_VOL_UP": $$mdi:volume-plus$$
     "&kp C_MUTE": $$mdi:volume-mute$$
 
-    '&mmv MOVE_UP': Mouse $$mdi:arrow-up$$
-    '&mmv MOVE_DOWN': Mouse $$mdi:arrow-down$$
-    '&mmv MOVE_LEFT': Mouse $$mdi:arrow-left$$
-    '&mmv MOVE_RIGHT': Mouse $$mdi:arrow-right$$
+    '&mmv MOVE_UP': Mouse Up
+    '&mmv MOVE_DOWN': Mouse Down
+    '&mmv MOVE_LEFT': Mouse Left
+    '&mmv MOVE_RIGHT': Mouse Right
 
-    '&msc SCRL_UP': Scroll $$mdi:arrow-up$$
-    '&msc SCRL_DOWN': Scroll $$mdi:arrow-down$$
-    '&msc SCRL_LEFT': Scroll $$mdi:arrow-left$$
-    '&msc SCRL_RIGHT': Scroll $$mdi:arrow-right$$
+    '&msc SCRL_UP': Scroll Up
+    '&msc SCRL_DOWN': Scroll Down
+    '&msc SCRL_LEFT': Scroll Left
+    '&msc SCRL_RIGHT': Scroll Right
 
     "&mkp RCLK": Right Click
     "&mkp LCLK": Left Click
     "&mkp MCLK": Middle Click
 
-    "&kp LG(C)": $$mdi:content-copy$$
-    "&kp LG(V)": $$mdi:content-paste$$
-    "&kp LG(X)": $$mdi:content-cut$$
-    "&kp LG(Z)": $$mdi:undo$$
-    "&kp LG(LS(Z))": $$mdi:redo$$
+    "&kp LG(C)": {t: Copy, h: $$mdi:content-copy$$}
+    "&kp LG(V)": {t: Paste, h: $$mdi:content-paste$$}
+    "&kp LG(X)": {t: Cut, h: $$mdi:content-cut$$}
+    "&kp LG(Z)": {t: Undo, h: $$mdi:undo$$}
+    "&kp LG(LS(Z))": {t: Redo, h: $$mdi:redo$$}
 
     "&kp LGUI": {t: 'LGUI', h: $$mdi:apple-keyboard-command$$}
     "&kp LALT": {t: 'LALT', h: $$mdi:apple-keyboard-option$$}
