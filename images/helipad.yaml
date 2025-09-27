@@ -96,11 +96,11 @@ layers:
   - LCTRL
   - LSHFT
   - {t: ▽, type: trans}
-  - '&caps_word'
-  - LEFT
-  - DOWN
-  - UP
-  - RIGHT
+  - Caps Word
+  - ←
+  - ↓
+  - ↑
+  - →
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -162,10 +162,10 @@ layers:
   - LSHFT
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&mmv MOVE_LEFT'
-  - '&mmv MOVE_DOWN'
-  - '&mmv MOVE_UP'
-  - '&mmv MOVE_RIGHT'
+  - Mouse Left
+  - Mouse Down
+  - Mouse Up
+  - Mouse Right
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -176,10 +176,10 @@ layers:
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - '&msc SCRL_LEFT'
-  - '&msc SCRL_DOWN'
-  - '&msc SCRL_UP'
-  - '&msc SCRL_RIGHT'
+  - Scroll Left
+  - Scroll Down
+  - Scroll Up
+  - Scroll Right
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -292,10 +292,10 @@ layers:
   - LSHFT
   - {t: ▽, type: trans}
   - EP TOG
-  - PREV
+  - ⏮
   - VOL DN
   - VOL UP
-  - NEXT
+  - ⏭
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -318,8 +318,8 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - STOP
-  - PP
+  - ⏸
+  - ⏯
   - MUTE
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
@@ -475,7 +475,7 @@ layers:
   - F9
   - PSCRN
   - {t: ▽, type: trans}
-  - '&studio_unlock'
+  - ZMK Studio
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
   - Boot
