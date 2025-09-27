@@ -531,10 +531,10 @@ combos:
   k: DEL
   l: [Nav]
 - p: [55, 56]
-  k: Middle Click
+  k: Mid Clk
   l: [Button]
 - p: [57, 58]
-  k: Middle Click
+  k: Mid Clk
   l: [Mouse, Button]
 - p: [57, 58]
   k: 🔇
