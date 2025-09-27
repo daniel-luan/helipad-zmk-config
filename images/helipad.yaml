@@ -79,16 +79,16 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:progress-download$$
+  - {t: Boot, h: '$$mdi:progress-download$$'}
   - ''
   - ''
   - ''
   - ''
-  - $$mdi:redo$$
-  - $$mdi:content-paste$$
-  - $$mdi:content-copy$$
-  - $$mdi:content-cut$$
-  - $$mdi:undo$$
+  - {t: Redo, h: '$$mdi:redo$$'}
+  - {t: Paste, h: '$$mdi:content-paste$$'}
+  - {t: Copy, h: '$$mdi:content-copy$$'}
+  - {t: Cut, h: '$$mdi:content-cut$$'}
+  - {t: Undo, h: '$$mdi:undo$$'}
   - ''
   - ''
   - {t: LGUI, h: '$$mdi:apple-keyboard-command$$'}
@@ -96,7 +96,7 @@ layers:
   - {t: LCTRL, h: '$$mdi:apple-keyboard-control$$'}
   - {t: LSHFT, h: '$$mdi:apple-keyboard-shift$$'}
   - ''
-  - $$mdi:apple-keyboard-caps$$
+  - {t: Caps Word, h: '$$mdi:apple-keyboard-caps$$'}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
   - $$mdi:arrow-up$$
@@ -144,16 +144,16 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:progress-download$$
+  - {t: Boot, h: '$$mdi:progress-download$$'}
   - ''
   - ''
   - ''
   - ''
-  - $$mdi:redo$$
-  - $$mdi:content-paste$$
-  - $$mdi:content-copy$$
-  - $$mdi:content-cut$$
-  - $$mdi:undo$$
+  - {t: Redo, h: '$$mdi:redo$$'}
+  - {t: Paste, h: '$$mdi:content-paste$$'}
+  - {t: Copy, h: '$$mdi:content-copy$$'}
+  - {t: Cut, h: '$$mdi:content-cut$$'}
+  - {t: Undo, h: '$$mdi:undo$$'}
   - ''
   - ''
   - {t: LGUI, h: '$$mdi:apple-keyboard-command$$'}
@@ -162,10 +162,10 @@ layers:
   - {t: LSHFT, h: '$$mdi:apple-keyboard-shift$$'}
   - ''
   - ''
-  - Mouse $$mdi:arrow-left$$
-  - Mouse $$mdi:arrow-down$$
-  - Mouse $$mdi:arrow-up$$
-  - Mouse $$mdi:arrow-right$$
+  - Mouse Left
+  - Mouse Down
+  - Mouse Up
+  - Mouse Right
   - ''
   - ''
   - ''
@@ -176,10 +176,10 @@ layers:
   - ''
   - ''
   - ''
-  - Scroll $$mdi:arrow-left$$
-  - Scroll $$mdi:arrow-down$$
-  - Scroll $$mdi:arrow-up$$
-  - Scroll $$mdi:arrow-right$$
+  - Scroll Left
+  - Scroll Down
+  - Scroll Up
+  - Scroll Right
   - ''
   - ''
   - ''
@@ -209,16 +209,16 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:undo$$
-  - $$mdi:content-cut$$
-  - $$mdi:content-copy$$
-  - $$mdi:content-paste$$
-  - $$mdi:redo$$
-  - $$mdi:redo$$
-  - $$mdi:content-paste$$
-  - $$mdi:content-copy$$
-  - $$mdi:content-cut$$
-  - $$mdi:undo$$
+  - {t: Undo, h: '$$mdi:undo$$'}
+  - {t: Cut, h: '$$mdi:content-cut$$'}
+  - {t: Copy, h: '$$mdi:content-copy$$'}
+  - {t: Paste, h: '$$mdi:content-paste$$'}
+  - {t: Redo, h: '$$mdi:redo$$'}
+  - {t: Redo, h: '$$mdi:redo$$'}
+  - {t: Paste, h: '$$mdi:content-paste$$'}
+  - {t: Copy, h: '$$mdi:content-copy$$'}
+  - {t: Cut, h: '$$mdi:content-cut$$'}
+  - {t: Undo, h: '$$mdi:undo$$'}
   - ''
   - ''
   - {t: LGUI, h: '$$mdi:apple-keyboard-command$$'}
@@ -233,18 +233,18 @@ layers:
   - {t: RGUI, h: '$$mdi:apple-keyboard-command$$'}
   - ''
   - ''
-  - {t: '$$mdi:undo$$', type: held}
-  - $$mdi:content-cut$$
-  - $$mdi:content-copy$$
-  - $$mdi:content-paste$$
-  - $$mdi:redo$$
+  - {t: Undo, h: '$$mdi:undo$$', type: held}
+  - {t: Cut, h: '$$mdi:content-cut$$'}
+  - {t: Copy, h: '$$mdi:content-copy$$'}
+  - {t: Paste, h: '$$mdi:content-paste$$'}
+  - {t: Redo, h: '$$mdi:redo$$'}
   - ''
   - ''
-  - $$mdi:redo$$
-  - $$mdi:content-paste$$
-  - $$mdi:content-copy$$
-  - $$mdi:content-cut$$
-  - $$mdi:undo$$
+  - {t: Redo, h: '$$mdi:redo$$'}
+  - {t: Paste, h: '$$mdi:content-paste$$'}
+  - {t: Copy, h: '$$mdi:content-copy$$'}
+  - {t: Cut, h: '$$mdi:content-cut$$'}
+  - {t: Undo, h: '$$mdi:undo$$'}
   - ''
   - ''
   - ''
@@ -274,7 +274,7 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:progress-download$$
+  - {t: Boot, h: '$$mdi:progress-download$$'}
   - ''
   - ''
   - ''
@@ -413,7 +413,7 @@ layers:
   - ''
   - ''
   - ''
-  - $$mdi:progress-download$$
+  - {t: Boot, h: '$$mdi:progress-download$$'}
   - ''
   - ''
   - ':'
@@ -478,7 +478,7 @@ layers:
   - ZMK Studio
   - ''
   - ''
-  - $$mdi:progress-download$$
+  - {t: Boot, h: '$$mdi:progress-download$$'}
   - ''
   - ''
   - F11

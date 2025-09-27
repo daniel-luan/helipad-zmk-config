@@ -505,7 +505,8 @@ path.combo {
 </g>
 <g transform="translate(84, 84)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:progress-download"/>
+<text x="0" y="0" class="key tap">Boot</text>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:progress-download"/>
 </g>
 <g transform="translate(140, 84)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -521,23 +522,28 @@ path.combo {
 </g>
 <g transform="translate(532, 84)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:redo" xlink:href="#mdi:redo" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:redo"/>
+<text x="0" y="0" class="key tap">Redo</text>
+<use href="#mdi:redo" xlink:href="#mdi:redo" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:redo"/>
 </g>
 <g transform="translate(588, 84)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-paste"/>
+<text x="0" y="0" class="key tap">Paste</text>
+<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-paste"/>
 </g>
 <g transform="translate(644, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-copy"/>
+<text x="0" y="0" class="key tap">Copy</text>
+<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-copy"/>
 </g>
 <g transform="translate(700, 84)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-cut"/>
+<text x="0" y="0" class="key tap">Cut</text>
+<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-cut"/>
 </g>
 <g transform="translate(756, 84)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:undo" xlink:href="#mdi:undo" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:undo"/>
+<text x="0" y="0" class="key tap">Undo</text>
+<use href="#mdi:undo" xlink:href="#mdi:undo" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:undo"/>
 </g>
 <g transform="translate(812, 84)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -570,7 +576,10 @@ path.combo {
 </g>
 <g transform="translate(532, 140)" class="key keypos-30">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:apple-keyboard-caps"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-1.2em">Caps</tspan><tspan x="0" dy="1.2em">Word</tspan>
+</text>
+<use href="#mdi:apple-keyboard-caps" xlink:href="#mdi:apple-keyboard-caps" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:apple-keyboard-caps"/>
 </g>
 <g transform="translate(588, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -739,7 +748,8 @@ path.combo {
 </g>
 <g transform="translate(84, 84)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:progress-download"/>
+<text x="0" y="0" class="key tap">Boot</text>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:progress-download"/>
 </g>
 <g transform="translate(140, 84)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -755,23 +765,28 @@ path.combo {
 </g>
 <g transform="translate(532, 84)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:redo" xlink:href="#mdi:redo" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:redo"/>
+<text x="0" y="0" class="key tap">Redo</text>
+<use href="#mdi:redo" xlink:href="#mdi:redo" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:redo"/>
 </g>
 <g transform="translate(588, 84)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-paste"/>
+<text x="0" y="0" class="key tap">Paste</text>
+<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-paste"/>
 </g>
 <g transform="translate(644, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-copy"/>
+<text x="0" y="0" class="key tap">Copy</text>
+<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-copy"/>
 </g>
 <g transform="translate(700, 84)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-cut"/>
+<text x="0" y="0" class="key tap">Cut</text>
+<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-cut"/>
 </g>
 <g transform="translate(756, 84)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:undo" xlink:href="#mdi:undo" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:undo"/>
+<text x="0" y="0" class="key tap">Undo</text>
+<use href="#mdi:undo" xlink:href="#mdi:undo" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:undo"/>
 </g>
 <g transform="translate(812, 84)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -807,19 +822,27 @@ path.combo {
 </g>
 <g transform="translate(588, 140)" class="key keypos-31">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-left" xlink:href="#mdi:arrow-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:arrow-left"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Mouse</tspan><tspan x="0" dy="1.2em">Left</tspan>
+</text>
 </g>
 <g transform="translate(644, 140)" class="key keypos-32">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-down" xlink:href="#mdi:arrow-down" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:arrow-down"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Mouse</tspan><tspan x="0" dy="1.2em">Down</tspan>
+</text>
 </g>
 <g transform="translate(700, 140)" class="key keypos-33">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-up" xlink:href="#mdi:arrow-up" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:arrow-up"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Mouse</tspan><tspan x="0" dy="1.2em">Up</tspan>
+</text>
 </g>
 <g transform="translate(756, 140)" class="key keypos-34">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-right" xlink:href="#mdi:arrow-right" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:arrow-right"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Mouse</tspan><tspan x="0" dy="1.2em">Right</tspan>
+</text>
 </g>
 <g transform="translate(812, 140)" class="key keypos-35">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -855,19 +878,27 @@ path.combo {
 </g>
 <g transform="translate(588, 196)" class="key keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-left" xlink:href="#mdi:arrow-left" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:arrow-left"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Scroll</tspan><tspan x="0" dy="1.2em">Left</tspan>
+</text>
 </g>
 <g transform="translate(644, 196)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-down" xlink:href="#mdi:arrow-down" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:arrow-down"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Scroll</tspan><tspan x="0" dy="1.2em">Down</tspan>
+</text>
 </g>
 <g transform="translate(700, 196)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-up" xlink:href="#mdi:arrow-up" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:arrow-up"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Scroll</tspan><tspan x="0" dy="1.2em">Up</tspan>
+</text>
 </g>
 <g transform="translate(756, 196)" class="key keypos-48">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:arrow-right" xlink:href="#mdi:arrow-right" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:arrow-right"/>
+<text x="0" y="0" class="key tap">
+<tspan x="0" dy="-0.6em">Scroll</tspan><tspan x="0" dy="1.2em">Right</tspan>
+</text>
 </g>
 <g transform="translate(812, 196)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -975,43 +1006,53 @@ path.combo {
 </g>
 <g transform="translate(84, 84)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:undo" xlink:href="#mdi:undo" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:undo"/>
+<text x="0" y="0" class="key tap">Undo</text>
+<use href="#mdi:undo" xlink:href="#mdi:undo" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:undo"/>
 </g>
 <g transform="translate(140, 84)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-cut"/>
+<text x="0" y="0" class="key tap">Cut</text>
+<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-cut"/>
 </g>
 <g transform="translate(196, 84)" class="key keypos-15">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-copy"/>
+<text x="0" y="0" class="key tap">Copy</text>
+<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-copy"/>
 </g>
 <g transform="translate(252, 84)" class="key keypos-16">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-paste"/>
+<text x="0" y="0" class="key tap">Paste</text>
+<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-paste"/>
 </g>
 <g transform="translate(308, 84)" class="key keypos-17">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:redo" xlink:href="#mdi:redo" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:redo"/>
+<text x="0" y="0" class="key tap">Redo</text>
+<use href="#mdi:redo" xlink:href="#mdi:redo" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:redo"/>
 </g>
 <g transform="translate(532, 84)" class="key keypos-18">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:redo" xlink:href="#mdi:redo" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:redo"/>
+<text x="0" y="0" class="key tap">Redo</text>
+<use href="#mdi:redo" xlink:href="#mdi:redo" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:redo"/>
 </g>
 <g transform="translate(588, 84)" class="key keypos-19">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-paste"/>
+<text x="0" y="0" class="key tap">Paste</text>
+<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-paste"/>
 </g>
 <g transform="translate(644, 84)" class="key keypos-20">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-copy"/>
+<text x="0" y="0" class="key tap">Copy</text>
+<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-copy"/>
 </g>
 <g transform="translate(700, 84)" class="key keypos-21">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-cut"/>
+<text x="0" y="0" class="key tap">Cut</text>
+<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-cut"/>
 </g>
 <g transform="translate(756, 84)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:undo" xlink:href="#mdi:undo" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:undo"/>
+<text x="0" y="0" class="key tap">Undo</text>
+<use href="#mdi:undo" xlink:href="#mdi:undo" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:undo"/>
 </g>
 <g transform="translate(812, 84)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1073,23 +1114,28 @@ path.combo {
 </g>
 <g transform="translate(84, 196)" class="key held keypos-37">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key held"/>
-<use href="#mdi:undo" xlink:href="#mdi:undo" x="-7" y="-7" height="14" width="14.0" class="key held tap glyph mdi:undo"/>
+<text x="0" y="0" class="key held tap">Undo</text>
+<use href="#mdi:undo" xlink:href="#mdi:undo" x="-6" y="12" height="12" width="12.0" class="key held hold glyph mdi:undo"/>
 </g>
 <g transform="translate(140, 196)" class="key keypos-38">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-cut"/>
+<text x="0" y="0" class="key tap">Cut</text>
+<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-cut"/>
 </g>
 <g transform="translate(196, 196)" class="key keypos-39">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-copy"/>
+<text x="0" y="0" class="key tap">Copy</text>
+<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-copy"/>
 </g>
 <g transform="translate(252, 196)" class="key keypos-40">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-paste"/>
+<text x="0" y="0" class="key tap">Paste</text>
+<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-paste"/>
 </g>
 <g transform="translate(308, 196)" class="key keypos-41">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:redo" xlink:href="#mdi:redo" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:redo"/>
+<text x="0" y="0" class="key tap">Redo</text>
+<use href="#mdi:redo" xlink:href="#mdi:redo" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:redo"/>
 </g>
 <g transform="translate(364, 196)" class="key keypos-42">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1099,23 +1145,28 @@ path.combo {
 </g>
 <g transform="translate(532, 196)" class="key keypos-44">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:redo" xlink:href="#mdi:redo" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:redo"/>
+<text x="0" y="0" class="key tap">Redo</text>
+<use href="#mdi:redo" xlink:href="#mdi:redo" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:redo"/>
 </g>
 <g transform="translate(588, 196)" class="key keypos-45">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-paste"/>
+<text x="0" y="0" class="key tap">Paste</text>
+<use href="#mdi:content-paste" xlink:href="#mdi:content-paste" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-paste"/>
 </g>
 <g transform="translate(644, 196)" class="key keypos-46">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-copy"/>
+<text x="0" y="0" class="key tap">Copy</text>
+<use href="#mdi:content-copy" xlink:href="#mdi:content-copy" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-copy"/>
 </g>
 <g transform="translate(700, 196)" class="key keypos-47">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:content-cut"/>
+<text x="0" y="0" class="key tap">Cut</text>
+<use href="#mdi:content-cut" xlink:href="#mdi:content-cut" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:content-cut"/>
 </g>
 <g transform="translate(756, 196)" class="key keypos-48">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:undo" xlink:href="#mdi:undo" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:undo"/>
+<text x="0" y="0" class="key tap">Undo</text>
+<use href="#mdi:undo" xlink:href="#mdi:undo" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:undo"/>
 </g>
 <g transform="translate(812, 196)" class="key keypos-49">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1238,7 +1289,8 @@ path.combo {
 </g>
 <g transform="translate(84, 84)" class="key keypos-13">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:progress-download"/>
+<text x="0" y="0" class="key tap">Boot</text>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:progress-download"/>
 </g>
 <g transform="translate(140, 84)" class="key keypos-14">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1741,7 +1793,8 @@ path.combo {
 </g>
 <g transform="translate(756, 84)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:progress-download"/>
+<text x="0" y="0" class="key tap">Boot</text>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:progress-download"/>
 </g>
 <g transform="translate(812, 84)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
@@ -1974,7 +2027,8 @@ path.combo {
 </g>
 <g transform="translate(756, 84)" class="key keypos-22">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
-<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="-7" y="-7" height="14" width="14.0" class="key tap glyph mdi:progress-download"/>
+<text x="0" y="0" class="key tap">Boot</text>
+<use href="#mdi:progress-download" xlink:href="#mdi:progress-download" x="-6" y="12" height="12" width="12.0" class="key hold glyph mdi:progress-download"/>
 </g>
 <g transform="translate(812, 84)" class="key keypos-23">
 <rect rx="6" ry="6" x="-26" y="-26" width="52" height="52" class="key"/>
