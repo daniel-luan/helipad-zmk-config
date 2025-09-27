@@ -6,8 +6,8 @@ draw_config:
   combo_h: 26.0
   key_rx: 6.0
   key_ry: 6.0
-  dark_mode: auto
-  n_columns: 1
+  dark_mode: false
+  n_columns: 2
   separate_combo_diagrams: false
   combo_diagrams_scale: 2
   inner_pad_w: 2.0
@@ -29,7 +29,7 @@ draw_config:
     rx: 4
     ry: 4
   svg_extra_style: ''
-  footer_text: Created with <a href="https://github.com/caksoylar/keymap-drawer">keymap-drawer</a>
+  footer_text: ''
   shrink_wide_legends: 7
   style_layer_activators: true
   glyph_tap_size: 14
@@ -41,6 +41,27 @@ parse_config:
   skip_binding_parsing: false
   raw_binding_map:
     "&bootloader": Boot
+    "&caps_word": Caps Word
+    "&kp UP": ↑
+    "&kp DOWN": ↓
+    "&kp LEFT": ←
+    "&kp RIGHT": →
+    "&kp C_STOP": ⏸
+    "&kp C_PP": ⏯
+    "&kp C_PREV": ⏮
+    "&kp C_NEXT": ⏭
+    "&studio_unlock": ZMK Studio
+    "&mmv MOVE_LEFT": Mouse Left
+    "&mmv MOVE_DOWN": Mouse Down
+    "&mmv MOVE_UP": Mouse Up
+    "&mmv MOVE_RIGHT": Mouse Right
+    "&msc SCRL_LEFT": Scroll Left
+    "&msc SCRL_DOWN": Scroll Down
+    "&msc SCRL_UP": Scroll Up
+    "&msc SCRL_RIGHT": Scroll Right
+    "&mpk RCLK": Right Click
+    "&mpk LCLK": Left Click
+    "&mpk MCLK": Middle Click
   sticky_label: sticky
   toggle_label: toggle
   tap_toggle_label: tap-toggle
