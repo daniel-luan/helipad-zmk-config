@@ -318,7 +318,7 @@ layers:
   - {type: held}
   - {t: ▽, type: trans}
   - {t: ▽, type: trans}
-  - {t: ▽, type: trans}
+  - STOP
   - PP
   - MUTE
   - {t: ▽, type: trans}
@@ -527,3 +527,21 @@ combos:
 - p: [57, 58]
   k: {t: DEL, h: Fun}
   l: [Base]
+- p: [57, 58]
+  k: DEL
+  l: [Nav]
+- p: [55, 56]
+  k: '&mkp MCLK'
+  l: [Button]
+- p: [57, 58]
+  k: '&mkp MCLK'
+  l: [Mouse, Button]
+- p: [57, 58]
+  k: MUTE
+  l: [Media]
+- p: [55, 56]
+  k: .
+  l: [Num]
+- p: [55, 56]
+  k: (
+  l: [Sym]
