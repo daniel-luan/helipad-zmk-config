@@ -42,26 +42,40 @@ parse_config:
   raw_binding_map:
     "&bootloader": Boot
     "&caps_word": Caps Word
+    "&studio_unlock": ZMK Studio
+
     "&kp UP": ↑
     "&kp DOWN": ↓
     "&kp LEFT": ←
     "&kp RIGHT": →
+
     "&kp C_STOP": ⏸
     "&kp C_PP": ⏯
     "&kp C_PREV": ⏮
     "&kp C_NEXT": ⏭
-    "&studio_unlock": ZMK Studio
-    "&mmv MOVE_LEFT": Mouse Left
-    "&mmv MOVE_DOWN": Mouse Down
-    "&mmv MOVE_UP": Mouse Up
-    "&mmv MOVE_RIGHT": Mouse Right
-    "&msc SCRL_LEFT": Scroll Left
-    "&msc SCRL_DOWN": Scroll Down
-    "&msc SCRL_UP": Scroll Up
-    "&msc SCRL_RIGHT": Scroll Right
-    "&mpk RCLK": Right Click
-    "&mpk LCLK": Left Click
-    "&mpk MCLK": Middle Click
+    "&kp C_VOL_DN": 🔉
+    "&kp C_VOL_UP": 🔊
+    "&kp C_MUTE": 🔇
+
+    '&mmv MOVE_UP': Mouse ↑
+    '&mmv MOVE_DOWN': Mouse ↓
+    '&mmv MOVE_LEFT': Mouse ←
+    '&mmv MOVE_RIGHT': Mouse →
+
+    '&msc SCRL_UP': Scroll ↑
+    '&msc SCRL_DOWN': Scroll ↓
+    '&msc SCRL_LEFT': Scroll ←
+    '&msc SCRL_RIGHT': Scroll →
+
+    "&mkp RCLK": Right Click
+    "&mkp LCLK": Left Click
+    "&mkp MCLK": Middle Click
+
+    "&kp LG(C)": Copy
+    "&kp LG(V)": Paste
+    "&kp LG(X)": Cut
+    "&kp LG(Z)": Undo
+    "&kp LG(LS(Z))": Redo
   sticky_label: sticky
   toggle_label: toggle
   tap_toggle_label: tap-toggle
