@@ -36,11 +36,11 @@
 #define BSC_NUM &lt NUM BSPC
 #define DEL_FUN &lt FUN DEL
 
-#define COPY  &kp LG(C)
-#define PASTE &kp LG(V)
-#define CUT   &kp LG(X)
-#define UNDO  &kp LG(Z)
-#define REDO  &kp LG(LS(Z))
+#define _COPY  &kp LG(C)
+#define _PASTE &kp LG(V)
+#define _CUT   &kp LG(X)
+#define _UNDO  &kp LG(Z)
+#define _REDO  &kp LG(LS(Z))
 
 #define KEYS_L LN0 LN1 LN2 LN3 LN4 LN5 LT0 LT1 LT2 LT3 LT4 LT5 LM0 LM1 LM2 LM3 LM4 LM5 LB0 LB1 LB2 LB3 LB4 LB5 LB6 LH3 LH4 LH5 LH6   // Left-hand keys.
 #define KEYS_R RN0 RN1 RN2 RN3 RN4 RN5 RT0 RT1 RT2 RT3 RT4 RT5 RM0 RM1 RM2 RM3 RM4 RM5 RB0 RB1 RB2 RB3 RB4 RB5 RB6 RH3 RH4 RH5 RH6   // Right-hand keys.
@@ -112,7 +112,7 @@
  // |      |      |      |       |       |      |      |        |  RET | BSPC | DEL  |       |       |       |      |
                      bindings = <
      &trans  &trans       &trans    &trans     &trans     &trans                           &trans      &trans    &trans     &trans     &trans     &trans
-     &trans  &bootloader  &trans    &trans     &trans     &trans                           REDO        PASTE     COPY       CUT        UNDO       &trans
+     &trans  &bootloader  &trans    &trans     &trans     &trans                           _REDO        _PASTE    _COPY     _CUT       _UNDO      &trans
      &trans  &kp LGUI     &kp LALT  &kp LCTRL  &kp LSHFT  &trans                           &caps_word  &kp LEFT  &kp DOWN   &kp UP     &kp RIGHT  &trans
      &trans  &trans       &kp RALT  &trans     &trans     &trans  &trans          &trans   &kp INS     &kp HOME  &kp PG_DN  &kp PG_UP  &kp END    &trans
      &trans  &trans       &trans    &trans     &trans     &trans  &trans          &kp RET  &kp BSPC    &kp DEL   &trans     &trans     &trans     &trans
@@ -127,7 +127,7 @@
  // |      |      |      |      |      |      |      |        |      |      |      |      |      |      |      |
                      bindings = <
      &trans  &trans       &trans    &trans     &trans     &trans                             &trans     &trans          &trans          &trans        &trans           &trans
-     &trans  &bootloader  &trans    &trans     &trans     &trans                             REDO       PASTE           COPY            CUT           UNDO             &trans
+     &trans  &bootloader  &trans    &trans     &trans     &trans                             _REDO      _PASTE          _COPY           _CUT          _UNDO            &trans
      &trans  &kp LGUI     &kp LALT  &kp LCTRL  &kp LSHFT  &trans                             &trans     &mmv MOVE_LEFT  &mmv MOVE_DOWN  &mmv MOVE_UP  &mmv MOVE_RIGHT  &trans
      &trans  &trans       &kp RALT  &trans     &trans     &trans  &trans          &trans     &kp INS    &msc SCRL_LEFT  &msc SCRL_DOWN  &msc SCRL_UP  &msc SCRL_RIGHT  &trans
      &trans  &trans       &trans    &trans     &trans     &trans  &trans          &mkp RCLK  &mkp LCLK  &mkp MCLK       &trans          &trans        &trans           &trans
@@ -142,9 +142,9 @@
  // |      |      |      |      |      |      |      |        |      |      |      |      |      |      |      |
                      bindings = <
      &trans  &trans       &trans    &trans     &trans     &trans                                &trans     &trans          &trans          &trans        &trans           &trans
-     &trans  UNDO         CUT       COPY       PASTE      REDO                                  REDO       PASTE           COPY            CUT           UNDO             &trans
-     &trans  &kp LGUI     &kp LALT  &kp LCTRL  &kp LSHFT  &trans                                &trans     &kp RSHFT       &kp RCTRL       &kp RALT      &kp RGUI  &trans
-     &trans  UNDO         CUT       COPY       PASTE      REDO       &trans          &trans     REDO       PASTE           COPY            CUT           UNDO             &trans
+     &trans  _UNDO        _CUT      _COPY      _PASTE     _REDO                                 _REDO      _PASTE          _COPY           _CUT          _UNDO            &trans
+     &trans  &kp LGUI     &kp LALT  &kp LCTRL  &kp LSHFT  &trans                                &trans     &kp RSHFT       &kp RCTRL       &kp RALT      &kp RGUI         &trans
+     &trans  _UNDO        _CUT      _COPY      _PASTE     _REDO      &trans          &trans     _REDO      _PASTE          _COPY           _CUT          _UNDO            &trans
      &trans  &trans       &trans    &trans     &mkp MCLK  &mkp LCLK  &mkp RCLK       &mkp RCLK  &mkp LCLK  &mkp MCLK       &trans          &trans        &trans           &trans
                      >;
               };
