@@ -149,10 +149,10 @@ layers:
   - ''
   - ''
   - ''
-  - Scroll Up
-  - Scroll Left
+  - {t: Scroll Up, h: '$$mdi:pan-up$$'}
+  - {t: Scroll Left, h: '$$mdi:pan-left$$'}
   - Mouse Up
-  - Scroll Right
+  - {t: Scroll Right, h: '$$mdi:pan-right$$'}
   - ''
   - ''
   - ''
@@ -161,7 +161,7 @@ layers:
   - {t: LCTRL, h: '$$mdi:apple-keyboard-control$$'}
   - {t: LSHFT, h: '$$mdi:apple-keyboard-shift$$'}
   - ''
-  - Scroll Down
+  - {t: Scroll Down, h: '$$mdi:pan-down$$'}
   - Mouse Left
   - Mouse Down
   - Mouse Right
@@ -176,9 +176,9 @@ layers:
   - ''
   - ''
   - ''
-  - '&mkp MB4'
+  - {t: Back, h: '$$mdi:backburger$$'}
   - ''
-  - '&mkp MB5'
+  - {t: Forward, h: '$$mdi:forwardburger$$'}
   - ''
   - ''
   - ''
