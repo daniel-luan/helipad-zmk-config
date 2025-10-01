@@ -62,14 +62,16 @@ parse_config:
     "&mmv MOVE_LEFT": Mouse Left
     "&mmv MOVE_RIGHT": Mouse Right
 
-    "&msc SCRL_UP": Scroll Up
-    "&msc SCRL_DOWN": Scroll Down
-    "&msc SCRL_LEFT": Scroll Left
-    "&msc SCRL_RIGHT": Scroll Right
+    "&msc SCRL_UP": { t: Scroll Up, h: $$mdi:pan-up$$}
+    "&msc SCRL_DOWN": { t: Scroll Down, h: $$mdi:pan-down$$}
+    "&msc SCRL_LEFT": { t: Scroll Left, h: $$mdi:pan-left$$}
+    "&msc SCRL_RIGHT": { t: Scroll Right, h: $$mdi:pan-right$$}
 
     "&mkp RCLK": Right Click
     "&mkp LCLK": Left Click
     "&mkp MCLK": Middle Click
+    "&mkp MB4": { t: Back, h: $$mdi:backburger$$ }
+    "&mkp MB5": { t: Forward, h: $$mdi:forwardburger$$ }
 
     "&kp LG(C)": { t: Copy, h: $$mdi:content-copy$$ }
     "&kp LG(V)": { t: Paste, h: $$mdi:content-paste$$ }
