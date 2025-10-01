@@ -35,7 +35,7 @@ layers:
   - {t: J, h: RIGHT SHIFT}
   - {t: K, h: RIGHT CONTROL}
   - {t: L, h: RIGHT ALT}
-  - {t: ;, h: RIGHT GUI}
+  - {t: '''', h: RIGHT GUI}
   - ''
   - ''
   - {t: Z, h: Button}
@@ -84,11 +84,11 @@ layers:
   - ''
   - ''
   - ''
-  - {t: Redo, h: '$$mdi:redo$$'}
-  - {t: Paste, h: '$$mdi:content-paste$$'}
-  - {t: Copy, h: '$$mdi:content-copy$$'}
-  - {t: Cut, h: '$$mdi:content-cut$$'}
-  - {t: Undo, h: '$$mdi:undo$$'}
+  - INS
+  - HOME
+  - $$mdi:arrow-up$$
+  - END
+  - PG UP
   - ''
   - ''
   - {t: LGUI, h: '$$mdi:apple-keyboard-command$$'}
@@ -99,8 +99,8 @@ layers:
   - {t: Caps Word, h: '$$mdi:apple-keyboard-caps$$'}
   - $$mdi:arrow-left$$
   - $$mdi:arrow-down$$
-  - $$mdi:arrow-up$$
   - $$mdi:arrow-right$$
+  - PG DN
   - ''
   - ''
   - ''
@@ -110,11 +110,11 @@ layers:
   - ''
   - ''
   - ''
-  - INS
-  - HOME
-  - PG DN
-  - PG UP
-  - END
+  - {t: Redo, h: '$$mdi:redo$$'}
+  - {t: Paste, h: '$$mdi:content-paste$$'}
+  - {t: Copy, h: '$$mdi:content-copy$$'}
+  - {t: Cut, h: '$$mdi:content-cut$$'}
+  - {t: Undo, h: '$$mdi:undo$$'}
   - ''
   - ''
   - ''
@@ -149,11 +149,11 @@ layers:
   - ''
   - ''
   - ''
-  - {t: Redo, h: '$$mdi:redo$$'}
-  - {t: Paste, h: '$$mdi:content-paste$$'}
-  - {t: Copy, h: '$$mdi:content-copy$$'}
-  - {t: Cut, h: '$$mdi:content-cut$$'}
-  - {t: Undo, h: '$$mdi:undo$$'}
+  - Scroll Up
+  - Scroll Left
+  - Mouse Up
+  - Scroll Right
+  - ''
   - ''
   - ''
   - {t: LGUI, h: '$$mdi:apple-keyboard-command$$'}
@@ -161,11 +161,11 @@ layers:
   - {t: LCTRL, h: '$$mdi:apple-keyboard-control$$'}
   - {t: LSHFT, h: '$$mdi:apple-keyboard-shift$$'}
   - ''
-  - ''
+  - Scroll Down
   - Mouse Left
   - Mouse Down
-  - Mouse Up
   - Mouse Right
+  - ''
   - ''
   - ''
   - ''
@@ -176,10 +176,10 @@ layers:
   - ''
   - ''
   - ''
-  - Scroll Left
-  - Scroll Down
-  - Scroll Up
-  - Scroll Right
+  - '&mkp MB4'
+  - ''
+  - '&mkp MB5'
+  - ''
   - ''
   - ''
   - ''
