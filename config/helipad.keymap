@@ -13,6 +13,9 @@
 #include <dt-bindings/zmk/pointing.h>
 #include "key-labels.h"
 
+
+#define QUICK_TAP_MS 175
+
 #define BAS 0
 #define NAV 1
 #define MOU 2
