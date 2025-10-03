@@ -521,7 +521,7 @@ layers:
   - ''
   - ''
 combos:
-- p: [55, 56]
+- p: [56, 55]
   k: {t: ESC, h: Media}
   l: [Base]
 - p: [57, 58]
@@ -530,7 +530,7 @@ combos:
 - p: [57, 58]
   k: DEL
   l: [Nav]
-- p: [55, 56]
+- p: [56, 55]
   k: Mid Clk
   l: [Button]
 - p: [57, 58]
@@ -539,9 +539,9 @@ combos:
 - p: [57, 58]
   k: $$mdi:volume-mute$$
   l: [Media]
-- p: [55, 56]
+- p: [56, 55]
   k: .
   l: [Num]
-- p: [55, 56]
+- p: [56, 55]
   k: (
   l: [Sym]
