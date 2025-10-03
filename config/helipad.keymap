@@ -222,49 +222,49 @@
         compatible = "zmk,combos";
         combo_esc_med {
             timeout-ms = <50>;
-            key-positions = <55 56>;
+            key-positions = <LH0 LH1>;
             bindings = <ESC_MED>;
             layers = <BAS>;
         };
         combo_del_fun {
             timeout-ms = <50>;
-            key-positions = <57 58>;
+            key-positions = <RH0 RH1>;
             bindings = <DEL_FUN>;
             layers = <BAS>;
         };
         combo_del {
             timeout-ms = <50>;
-            key-positions = <57 58>;
+            key-positions = <RH0 RH1>;
             bindings = <&kp DEL>;
             layers = <NAV>;
         };
         combo_left_mclk {
             timeout-ms = <50>;
-            key-positions = <55 56>;
+            key-positions = <LH0 LH1>;
             bindings = <&mkp MCLK>;
             layers = <BUT>;
         };
         combo_right_mclk {
             timeout-ms = <50>;
-            key-positions = <57 58>;
+            key-positions = <RH0 RH1>;
             bindings = <&mkp MCLK>;
             layers = <MOU BUT>;
         };
         combo_mute {
             timeout-ms = <50>;
-            key-positions = <57 58>;
+            key-positions = <RH0 RH1>;
             bindings = <&kp C_MUTE>;
             layers = <MED>;
         };
         combo_dot {
             timeout-ms = <50>;
-            key-positions = <55 56>;
+            key-positions = <LH0 LH1>;
             bindings = <&kp DOT>;
             layers = <NUM>;
         };
         combo_lpar {
             timeout-ms = <50>;
-            key-positions = <55 56>;
+            key-positions = <LH0 LH1>;
             bindings = <&kp LPAR>;
             layers = <SYM>;
         };
