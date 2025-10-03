@@ -22,11 +22,6 @@
 #define SYM 6
 #define FUN 7
 
-
-// #define RS_ET &mt RSHFT RET
-// #define SP_LW &lt LOWER SPACE
-// #define SP_RS &lt RAISE SPACE
-
 #define Z_BUT   &lt BUT Z
 #define SLS_BUT &lt BUT SLASH
 
@@ -47,6 +42,15 @@
 #define KEYS_R RN0 RN1 RN2 RN3 RN4 RN5 RT0 RT1 RT2 RT3 RT4 RT5 RM0 RM1 RM2 RM3 RM4 RM5 RB0 RB1 RB2 RB3 RB4 RB5 RB6 RH3 RH4 RH5 RH6   // Right-hand keys.
 #define THUMBS LH2 LH1 LH0 RH0 RH1 RH2                                                                                               // Thumb keys.
 
+#define MAKE_HRM(NAME, HOLD, TAP, TRIGGER_POS)                                 \
+  ZMK_HOLD_TAP(NAME, bindings = <HOLD>, <TAP>; flavor = "balanced";            \
+               tapping-term-ms = <280>; quick-tap-ms = <QUICK_TAP_MS>;         \
+               require-prior-idle-ms = <150>; hold-trigger-on-release;         \
+               hold-trigger-key-positions = <TRIGGER_POS>;)
+
+MAKE_HRM(hml, &kp, &kp, KEYS_R THUMBS) // Left-hand HRMs.
+MAKE_HRM(hmr, &kp, &kp, KEYS_L THUMBS) // Right-hand HRMs.
+
 #define HRM_A &hml LEFT_GUI A
 #define HRM_S &hml LEFT_ALT S
 #define HRM_D &hml LEFT_CONTROL D
@@ -58,34 +62,12 @@
 #define HRM_SQT &hmr RIGHT_GUI SQT
 
 &lt {
-    tapping-term-ms = <200>;
+  flavor = "balanced";
+  tapping-term-ms = <200>;
+  quick-tap-ms = <QUICK_TAP_MS>;
 };
 
 / {
-    behaviors {
-        hml: home_row_mod_left {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            require-prior-idle-ms = <150>;
-            tapping-term-ms = <280>;
-            quick-tap-ms = <175>;
-            bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <KEYS_R THUMBS>; // List of keys on the right side of the keyboard
-            hold-trigger-on-release;
-        };
-        hmr: home_row_mod_right {
-            compatible = "zmk,behavior-hold-tap";
-            #binding-cells = <2>;
-            flavor = "balanced";
-            require-prior-idle-ms = <150>;
-            tapping-term-ms = <280>;
-            quick-tap-ms = <175>;
-            bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <KEYS_L THUMBS>; // List of keys on the left side of the keyboard
-            hold-trigger-on-release;
-        };
-    };
        keymap {
               compatible = "zmk,keymap";
 
