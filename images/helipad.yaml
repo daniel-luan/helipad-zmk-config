@@ -26,16 +26,16 @@ layers:
   - P
   - ''
   - ''
-  - {t: A, h: LEFT GUI}
-  - {t: S, h: LEFT ALT}
-  - {t: D, h: LEFT CONTROL}
-  - {t: F, h: LEFT SHIFT}
+  - '&hml LEFT_GUI A'
+  - '&hml LEFT_ALT S'
+  - '&hml LEFT_CONTROL D'
+  - '&hml LEFT_SHIFT F'
   - G
   - H
-  - {t: J, h: RIGHT SHIFT}
-  - {t: K, h: RIGHT CONTROL}
-  - {t: L, h: RIGHT ALT}
-  - {t: '''', h: RIGHT GUI}
+  - '&hmr RIGHT_SHIFT J'
+  - '&hmr RIGHT_CONTROL K'
+  - '&hmr RIGHT_ALT L'
+  - '&hmr RIGHT_GUI SQT'
   - ''
   - ''
   - {t: Z, h: Button}
